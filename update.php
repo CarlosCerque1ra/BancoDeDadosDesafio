@@ -3,7 +3,7 @@ include 'conexao.php'; // Inclui o arquivo de conexão
 
 if (isset($_GET['id'])) { // Verifica se o ID foi passado
     $id = $_GET['id']; // Recebe o ID
-    $sql = "SELECT * FROM usuarios WHERE id=$id"; // Consulta o usuário
+    $sql = "SELECT * FROM criancas WHERE id=$id"; // Consulta o usuário
     $result = $conn->query($sql); // Executa a consulta
     $usuario = $result->fetch_assoc(); // Obtém os dados do usuário
 }
