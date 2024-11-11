@@ -11,14 +11,15 @@
     <div class="informacao">
         <form action="store.php" method="POST">
             <label>Nome:</label>
-            <input type="text" name="nome" required>
+            <input type="text" name="Nome" required>
             <label>CPF:</label>
-            <input type="number" name="cpf" required>
+            <input type="number" name="CPF" required>
             <label>Ano:</label>
-            <input type="text" name="ano" required>
+            <input type="text" name="Ano" required>
             <input type="submit" value="Adicionar Usuário">
         </form>
     </div>
+    <br>
     <h2>Lista de Alunos</h2>
     <div>
         <?php  include 'read.php'; ?>

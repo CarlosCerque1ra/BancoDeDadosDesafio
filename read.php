@@ -9,7 +9,7 @@ if ($result->num_rows > 0) { // Se há resultados
     while ($row = $result->fetch_assoc()) { // Para cada usuário
         echo "<tr>
                 <td>" . $row["id"] . "</td>
-                <td>" . $row["nome"] . "</td>
+                <td>" . $row["Nome"] . "</td>
                 <td>" . $row["CPF"] . "</td>
                 <td>" . $row["Ano"] . "</td>
                 <td>
@@ -20,6 +20,6 @@ if ($result->num_rows > 0) { // Se há resultados
     }
     echo "</table>"; // Fecha a tabela
 } else {
-    echo "Nenhum usuário encontrado."; // Mensagem se não houver usuários
+    echo "<p>Nenhum usuário encontrado</p>"; // Mensagem se não houver usuários
 }
 ?>
