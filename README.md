@@ -1,5 +1,9 @@
 # Banco-de-Dados
 Atividade realizada em PHP, com Banco de Dados para armazenar as Informações dos Alunos.
+Tem:
+* Local de Inserir informações;
+* Local de Edição das informações;
+* Campo de exclosão de alunos;
 <hr>
 
 ![image](https://github.com/user-attachments/assets/97c28594-62d2-4522-a8b3-30136f1162c1)
